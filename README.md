@@ -1,14 +1,14 @@
 # RPN Caclulator
 """
 A simple stack based approcah has been used to solve the given probelm.
-We remove the immediate two elements to the absolute left the operator we encounter and
-use the operator on these two operations.
+We remove the immediate two elements to the absolute left of the operator we encounter and
+use the operator on these two operands.
 
 Time Complexity:O(n) for a RPN expression of length n
 
 Memory Complexity:O(n+d) for a RPN expression of length n and d opperators
 
-Please enter the RPN string with a ',' separator. It handels addition, subtraction,
+Please enter the RPN string with a ',' separator. It handles addition, subtraction,
 multiplication, division and power operators.
 
 
